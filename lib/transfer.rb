@@ -9,7 +9,6 @@ class Transfer
   end
 
   def valid?
-    # binding.pry
     if (@sender.valid? == true) && (@receiver.valid? == true)
       true
     else

@@ -23,7 +23,6 @@ class BankAccount
     if (@status = "open") && (@balance > 0)
       true
     else
-      binding.pry
       return false
 
     end

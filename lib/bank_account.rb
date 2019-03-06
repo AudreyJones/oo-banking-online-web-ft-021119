@@ -21,7 +21,7 @@ class BankAccount
 
   def valid?
     if (@status = "open") && (@balance > 0)
-      "The account is valid."
+      true
     else
       "This account is not valid."
     end

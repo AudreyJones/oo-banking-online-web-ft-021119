@@ -8,7 +8,8 @@ class Transfer
     @amount = amount
   end
 
-  def valid?
+  def valid?(accounts)
+    if (@sender)
   end
 
   # def execute_transaction

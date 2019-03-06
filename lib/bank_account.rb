@@ -23,7 +23,7 @@ class BankAccount
     if (@status = "open") && (@balance > 0)
       true
     else
-      return false
+      false
     end
   end
 end

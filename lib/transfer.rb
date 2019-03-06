@@ -8,8 +8,8 @@ class Transfer
     @amount = amount
   end
 
-  # def valid?
-  # end
+  def valid?
+  end
 
   # def execute_transaction
   #   binding.pry

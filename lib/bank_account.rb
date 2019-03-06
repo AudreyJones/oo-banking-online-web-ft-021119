@@ -23,7 +23,7 @@ class BankAccount
     if (@status = "open") && (@balance > 0)
       true
     else
-      "This account is not valid."
+      false
     end
   end
 end

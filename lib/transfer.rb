@@ -8,7 +8,7 @@ class Transfer
     @amount = amount
   end
 
-  def valid?(accounts)
+  def valid?
     binding.pry
   end
 

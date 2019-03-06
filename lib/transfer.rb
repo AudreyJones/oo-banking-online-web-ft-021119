@@ -21,6 +21,6 @@ class Transfer
     #if sender's transfer successfully gets to receiver
     @sender.balance = @sender.balance - @amount
     @receiver.balance = @receiver.balance + @amount
-    # self.@status = "complete"
+    self.@status = "complete"
   end
 end

@@ -23,7 +23,6 @@ class BankAccount
     if (@status = "open") && (@balance > 0)
       "The account is valid."
     else
-      binding.pry
       "This account is not valid."
     end
   end

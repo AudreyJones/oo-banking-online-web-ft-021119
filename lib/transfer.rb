@@ -30,6 +30,9 @@ class Transfer
   end
 
   def reverse_transfer
-
+    #We can 'reverse' completed transfers only.
+    if @status == "complete"
+    else
+    end
   end
 end

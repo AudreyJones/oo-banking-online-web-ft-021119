@@ -18,9 +18,6 @@ class Transfer
 
   def execute_transaction
     # binding.pry
-    if @status = "complete"
-      return "No more transactions allowed."
-    end
     # if (@sender.valid? == true)
       @sender.balance = @sender.balance - @amount
       @receiver.balance = @receiver.balance + @amount

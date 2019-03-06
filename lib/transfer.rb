@@ -9,7 +9,7 @@ class Transfer
   end
 
   def valid?(accounts)
-    if (@sender)
+    binding.pry
   end
 
   # def execute_transaction

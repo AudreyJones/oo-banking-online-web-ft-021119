@@ -17,7 +17,8 @@ class Transfer
   end
 
   def execute_transaction
-    binding.pry
+    # binding.pry
+    #if sender's transfer successfully gets to receiver
     @sender
     # self.@status = "complete"
   end

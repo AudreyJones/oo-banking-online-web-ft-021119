@@ -13,5 +13,6 @@ class Transfer
 
   def execute_transaction
     binding.pry
+    self.@status = "complete"
   end
 end

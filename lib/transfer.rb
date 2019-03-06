@@ -23,7 +23,7 @@ class Transfer
       @status = "complete"
     else
       "Your account is not valid"
-
+    end
 
   end
 end

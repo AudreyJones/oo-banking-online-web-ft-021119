@@ -23,7 +23,7 @@ class Transfer
       @receiver.balance = @receiver.balance + @amount
       @status = "complete"
     if @status = "complete"
-      return
+      return "No more transactions allowed."
     end
     # elsif (@sender.valid? == false)
     #   "Transaction rejected. Please check your account balance."

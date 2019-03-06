@@ -21,10 +21,10 @@ class BankAccount
 
   def valid?
     if (@status = "open") && (@balance > 0)
-      true
+      "The account is valid."
     else
       binding.pry
-      false
+      "This account is not valid."
     end
   end
 end

@@ -9,4 +9,8 @@ class BankAccount
   def name
     @name
   end
+
+  def deposit
+
+  end
 end
